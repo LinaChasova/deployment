@@ -1,0 +1,25 @@
+name: deployment
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - pip=21.2.4
+  - numpy
+  - pandas
+  - jupyterlab
+  - ipykernel
+  - jupyterlab_code_formatter
+  - isort
+  - yapf
+  - autopep8
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - hydra-core
+  - omegaconf
+  - yaml
+  - marshmallow-dataclass
+  - fastapi
+  - uvicorn
+  - aiohttp

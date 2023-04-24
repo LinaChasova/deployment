@@ -1,0 +1,7 @@
+# @package _global_
+input_data_path: 'data/raw/test.csv'
+output_data_path: 'models/predictions.csv'
+model_path: 'models/model.pkl'
+metric_path: 'models/metrics_test.json'
+defaults:
+  - feature_params: features

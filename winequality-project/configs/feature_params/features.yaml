@@ -1,0 +1,16 @@
+# @package _group_
+numerical_features:
+  - 'fixed acidity'
+  - 'volatile acidity'
+  - 'citric acid'
+  - 'residual sugar'
+  - 'chlorides'
+  - 'free sulfur dioxide'
+  - 'total sulfur dioxide'
+  - 'density'
+  - 'pH'
+  - 'sulphates'
+  - 'alcohol'
+categorical_features:
+  - 'quality'
+target_col: 'quality'
